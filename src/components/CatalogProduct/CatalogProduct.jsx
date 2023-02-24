@@ -11,7 +11,7 @@ export const CatalogProduct = ({ item }) => {
       <img src={`${API_URI}/${item.image}`} alt={item.title} className={st.image} />
 
       <p className={st.price}>
-        {item.price}<span className="currency">₽</span>
+        {item.price}<span className="currency">&nbsp;₽</span>
       </p>
 
       <h3 className={st.title}>
